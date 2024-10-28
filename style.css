@@ -45,7 +45,7 @@ header nav ul li a {
     margin: auto;
 }
 
-#about, #academic, #organization, #volunteer, #certification, #contact {
+#about, #academic, #organization, #volunteer, #certification, #contact, #message {
     background-color: #f9f9f9;
     border: 1px solid #080808;
     padding: 40px;
