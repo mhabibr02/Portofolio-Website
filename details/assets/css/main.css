@@ -691,7 +691,7 @@ section,
   border-radius: 0;
 }
 
-.skills .progress .skill {
+.skills .progress {
   color: var(--heading-color);
   padding: 0;
   margin: 0 0 6px 0;
@@ -701,7 +701,7 @@ section,
   font-family: var(--heading-font);
 }
 
-.skills .progress .skill .val {
+.skills .progress .val {
   float: right;
   font-style: normal;
 }
@@ -716,6 +716,17 @@ section,
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
+}
+
+.skills {
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skills img {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
 }
 
 /*--------------------------------------------------------------
