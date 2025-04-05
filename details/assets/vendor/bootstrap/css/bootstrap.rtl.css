@@ -550,7 +550,7 @@ legend + * {
 
 [type="tel"],
 [type="url"],
-[type="email"],
+[type="contact"],
 [type="number"] {
   direction: ltr;
 }
