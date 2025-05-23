@@ -86,70 +86,82 @@
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
+   <!-- Portfolio Section -->
+   <section id="portfolio" class="portfolio section light-background">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Test</h2>
+    </div><!-- End Section Title -->
 
-        <div class="row gy-4">
+    <div class="container">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
+      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
+        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-language">Language</li>
+          <li data-filter=".filter-olimpiade">Olimpiade</li>
+          <li data-filter=".filter-examination">Examination</li>
+        </ul><!-- End Portfolio Filters -->
 
-              <div class="swiper-wrapper align-items-center">
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/course-75-1.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/course-75-2.jpg" alt="">
-                </div>
-
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-olimpiade">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/test-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Certificate 1</h4>
+                <p>Pekanbaru Science Competition</p>
+                <a href="assets/img/portfolio/test-1.jpg" title="Zoom" class="preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="certificate-test-details1.html" title="Show" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-              <div class="swiper-pagination"></div>
             </div>
-          </div>
+          </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Portofolio Information</h3>
-              <ul>
-                <li><strong>Name</strong>: AI Advanced FGA</li>
-                <li><strong>Category</strong>: Certificate</li>
-                <li><strong>Credential ID</strong>: 19510255840-157</li>
-                <li><strong>Duration</strong>: 2166 Minutes</li>
-                <li><strong>Method</strong>: Reading Summary & Exercise</li>
-                <li><strong>Publisher</strong>: <a href="https://digitalent.komdigi.go.id/">Digitalent</a></li>
-                <li><strong>Role</strong>: Technology Information</li>
-                <li><strong>Issue Date</strong>: May 9th, 2025</li>
-                <li><strong>Expired Date</strong>: -</li>
-                <li><strong>Skills</strong>:  Document Intelligence AI, Solution Generative AI, Microsoft Azure AI</li>
-              </ul>
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-examination">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/test-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Certificate 2</h4>
+                <p>Ujian Tertulis Berbasis Komputer</p>
+                <a href="assets/img/portfolio/test-2.jpg" title="Zoom" class="preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="certificate-test-details2.html" title="Show" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
             </div>
+          </div><!-- End Portfolio Item -->
 
-          </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-language">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/test-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Certificate 3</h4>
+                <p>English Proficiency Test TOEFL</p>
+                <a href="assets/img/portfolio/test-3.jpg" title="Zoom" class="preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="certificate-test-details3.html" title="Show" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
 
-        </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-language">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/test-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Certificate 4</h4>
+                <p>TOEFL Prediction Test in English Skill Program</p>
+                <a href="assets/img/portfolio/test-4.jpg" title="Zoom" class="preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="certificate-test-details4.html" title="Show" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+        </div><!-- End Portfolio Container -->
 
       </div>
 
-    </section><!-- /Portfolio Details Section -->
+    </div>
+
+  </section><!-- /Portfolio Section -->
 
   </main>
 
@@ -163,7 +175,7 @@
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] Semantic-->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
